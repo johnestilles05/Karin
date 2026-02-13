@@ -312,7 +312,3 @@ function startExperience() {
 
   resolveFetch().then(animationTimeline());
 }
-
-window.addEventListener("click", () => {
-  document.getElementById("bgMusic").play();
-});
